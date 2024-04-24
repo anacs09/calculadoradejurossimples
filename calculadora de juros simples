@@ -1,0 +1,7 @@
+principal = int(input("qual o valor principal"))
+taxa = int(input("qual o valor da taxa"))
+prazo =int(input("qual é o prazo para o juros"))
+
+Juros = principal * taxa * prazo/ 100
+
+print(f' juros = {Juros}')
